@@ -13,7 +13,7 @@ source venv/bin/activate
 Install Flask and OpenTelemetry packages:
 
 ```
-pip install Flask opentelemetry-api opentelemetry-sdk opentelemetry-instrumentation opentelemetry-instrumentation-flask opentelemetry-exporter-jaeger
+pip install Flask opentelemetry-api opentelemetry-sdk opentelemetry-instrumentation opentelemetry-instrumentation-flask opentelemetry-exporter-jaeger importlib-metadata~=6.0.0
 
 ```{{exec}}
 

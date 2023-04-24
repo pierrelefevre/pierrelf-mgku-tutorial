@@ -3,6 +3,7 @@ In this example, we'll use Python and Flask to create a simple web application a
 Create a new directory for your project and set up a virtual environment:
 
 ```
+apt install python3.8-venv
 mkdir opentelemetry-example
 cd opentelemetry-example
 python -m venv venv

@@ -1,10 +1,6 @@
 Create a file named app.py and add the following code for a simple Flask web application:
 python
 
-```
-nano app.py
-```{{exec}}
-
 Command for inserting the source code:
 ```
 echo -e "from flask import Flask\n\napp = Flask(__name__)\n\n@app.route(\"/\")\ndef hello():\n    return \"Hello, OpenTelemetry!\"\n\nif __name__ == \"__main__\":\n    app.run(host='0.0.0.0', port=5000 )" > app.py
